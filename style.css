@@ -1,0 +1,25 @@
+.fade {
+    background-color: blue;
+    opacity:0.25;
+}
+.fade:hover {
+    opacity:1;
+}
+.circle {
+    background-color:red;
+    width:8%;
+}
+.circle:hover {
+    border-radius:50%;
+}
+.grow {
+    background-color:orange;
+    width:25%;
+    height:30%;
+    text-align:center;
+}
+.grow:hover {
+    -webkit-transform: scale(5.0);
+    -ms-transform: scale(5.0);
+    transform: scale(5.0);
+}
